@@ -1,0 +1,17 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: HolaBuildkite
+  description: Buildkite Playground
+  annotations:
+    backstage.io/source-location: url:https://github.com/LetsAutomateIt/HolaBuildkite/
+    github.op/project-slug: LetsAutomateIt/HolaBuildkite
+    github.io/team-slug: LetsAutomateIt/ci-systems
+  tags:
+    - buildkite
+    - training
+spec:
+  type: service
+  owner: group:ci-systems
+  lifecycle: development
