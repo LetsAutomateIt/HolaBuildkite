@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: HolaBuildkite
-  description: Buildkite Playground
+  description: Buildkite Playground Comp
   annotations:
     backstage.io/source-location: url:https://github.com/LetsAutomateIt/HolaBuildkite/
     github.op/project-slug: LetsAutomateIt/HolaBuildkite
